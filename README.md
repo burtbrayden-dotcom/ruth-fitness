@@ -4,6 +4,9 @@ A small web app for Grandma: three full-body strength workouts a week from her
 exercise paper, walking on the other days, and weights remembered for her. No
 accounts, no server-side data, no build step, no dependencies.
 
+**Live: https://burtbrayden-dotcom.github.io/ruth-fitness/** (GitHub Pages, deploys
+automatically from `main`).
+
 ## Run it
 
 ```bash
@@ -15,8 +18,9 @@ show up. Opening `index.html` straight from disk also works, but YouTube
 refuses to play embedded videos from a `file://` page (error 153); the
 "Open it on YouTube" link under each video still works.
 
-**For her phone** the folder has to be hosted on any static host (GitHub Pages,
-Netlify, etc.) because there is no backend. Once it's hosted she can use
+**For her phone** it's hosted on GitHub Pages (link above). Pushing to `main`
+redeploys in about a minute, and her phone picks up the change on its next
+online visit. Her saved progress is unaffected. On her phone she can use
 Share → *Add to Home Screen* (iPhone) or *Install app* (Android). It then
 opens full-screen and keeps working at the gym with poor reception (videos
 need signal).
