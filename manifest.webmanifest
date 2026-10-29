@@ -1,0 +1,15 @@
+{
+  "name": "Ruth's Exercises",
+  "short_name": "Exercises",
+  "description": "Strength workouts and walking, with weights remembered for you.",
+  "start_url": "./index.html#today",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8f3",
+  "theme_color": "#1d5c54",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

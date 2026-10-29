@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#1d5c54">
+  <meta name="description" content="Ruth's exercise guide - strength workouts and walking.">
+  <title>Ruth's Exercises</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Exercises">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="app-name">Ruth's Exercises</p>
+      <nav id="nav" class="nav" aria-label="Main"></nav>
+    </div>
+  </header>
+  <p id="banner" class="banner" role="alert" hidden></p>
+  <main id="main" class="wrap" tabindex="-1">
+    <noscript><p>This app needs JavaScript turned on to work.</p></noscript>
+  </main>
+
+  <!-- Content first, then logic, then screens. Plain scripts (no modules)
+       so the app also works when index.html is opened straight from disk. -->
+  <script src="js/program.js"></script>
+  <script src="js/logic.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/controls.js"></script>
+  <script src="js/workout.js"></script>
+  <script src="js/screens.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
